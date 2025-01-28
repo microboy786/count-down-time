@@ -1,0 +1,10 @@
+input.onButtonPressed(Button.A, function () {
+    basic.showNumber(3)
+    music.play(music.createSoundExpression(WaveShape.Square, 2549, 2549, 255, 255, 1000, SoundExpressionEffect.None, InterpolationCurve.Linear), music.PlaybackMode.UntilDone)
+    basic.showNumber(2)
+    music.play(music.createSoundExpression(WaveShape.Square, 2549, 2549, 255, 255, 1000, SoundExpressionEffect.None, InterpolationCurve.Linear), music.PlaybackMode.UntilDone)
+    basic.showNumber(1)
+    music.play(music.createSoundExpression(WaveShape.Square, 2549, 2549, 255, 255, 1000, SoundExpressionEffect.None, InterpolationCurve.Linear), music.PlaybackMode.UntilDone)
+    basic.showNumber(0)
+    music.play(music.createSoundExpression(WaveShape.Square, 4584, 4795, 255, 255, 1000, SoundExpressionEffect.None, InterpolationCurve.Curve), music.PlaybackMode.UntilDone)
+})
